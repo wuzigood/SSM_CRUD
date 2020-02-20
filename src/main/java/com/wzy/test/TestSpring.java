@@ -8,7 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class TestSpring {
 
     @Test
-    public void test1(){
+    public void test1() {
         // 加载配置文件
         ApplicationContext ac = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
 
@@ -17,7 +17,6 @@ public class TestSpring {
 
         // 调用方法
         as.findAll();
-
-
     }
+
 }
